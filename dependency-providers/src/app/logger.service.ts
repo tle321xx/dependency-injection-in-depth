@@ -4,7 +4,7 @@ import { ExperimentalLoggerService } from './experimental-logger.service';
 
 @Injectable({
   providedIn: 'root',
-  useExisting: ExperimentalLoggerService
+  // useExisting: ExperimentalLoggerService
 })
 export class LoggerService implements Logger {
 
